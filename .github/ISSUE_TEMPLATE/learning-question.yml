@@ -1,0 +1,18 @@
+name: Lernfrage oder Lab-Fehler
+description: Beobachtung und Hypothese dokumentieren, keine Secrets anhängen.
+title: '[Lab] '
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Modul und Messpunkt
+      description: z. B. 04, CLIENT-VM; keine Credentials
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Erwartung, Befehl, echte Beobachtung und Hypothese
+      description: IPs anonymisieren, keine Tokens, Keys oder Captures hochladen.
+    validations:
+      required: true

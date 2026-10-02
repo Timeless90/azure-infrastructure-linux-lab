@@ -1,0 +1,19 @@
+{
+  "subscriptionId": "",
+  "tenantId": "",
+  "accountName": "",
+  "resourceGroup": "rg-azlinux-course-CHANGE-ME",
+  "labId": "CHANGE-ME",
+  "location": "swedencentral",
+  "adminUsername": "labadmin",
+  "adminSourceCidr": "",
+  "sshPublicKeyPath": "",
+  "imageVersion": "",
+  "vmSize": "Standard_B1s",
+  "vnetCidr": "10.10.0.0/16",
+  "clientSubnetCidr": "10.10.1.0/24",
+  "serverSubnetCidr": "10.10.2.0/24",
+  "clientIp": "10.10.1.4",
+  "serverIp": "10.10.2.4",
+  "existingNetworks": []
+}

@@ -1,0 +1,20 @@
+#cloud-config
+package_update: true
+packages:
+  - python3
+  - python3-venv
+  - iproute2
+  - iputils-ping
+  - iputils-tracepath
+  - dnsutils
+  - netcat-openbsd
+  - nmap
+  - tcpdump
+  - openssl
+  - curl
+  - git
+  - ca-certificates
+write_files:
+  - path: /etc/azure-linux-course
+    permissions: '0644'
+    content: 'Dedicated course VM; no production data.'

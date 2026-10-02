@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "python3 .github/hooks/learning_context.py",
+        "timeout": 5
+      }
+    ]
+  }
+}
