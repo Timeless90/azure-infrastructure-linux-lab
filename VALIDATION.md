@@ -53,4 +53,6 @@ for template in infra/bicep/*.bicep; do
 done
 ```
 
-Nur Compiler/Repositorychecks, keine Azure-Anmeldung nötig. ShellCheck/Bicep müssen vorher installiert sein. GitHub-Commit-/PR-Verifikation erfolgt separat nach Speicherung; CI-Status nicht mit lokalem Testlauf verwechseln.
+Nur Compiler/Repositorychecks, keine Azure-Anmeldung nötig. ShellCheck/Bicep müssen vorher installiert sein. ## GitHub-Speicherung und erneute Prüfung
+
+Der erste Kurscommit `cd2554d293ff09e57662efb7360a95aa2b13cc0d` wurde auf `course/azure-linux-2026-10-02` gespeichert; Pull Request #1 bleibt offen, main unverändert. Alle78 GitHub-Blob-Hashes wurden gegen lokale Sourcebytes geprüft und stimmen überein. [GitHub Actions Lauf1](https://github.com/Timeless90/azure-infrastructure-linux-lab/actions/runs/37042801535) endete erfolgreich, einschließlich Repository-/Python-/ShellCheck-/Bicep-Prüfung. Dies ist zusätzlich zum lokalen Lauf; weiterhin kein Cloud-Integrationstest. Danach wurden ausschließlich Einstieg/Branchhinweis und Cleanup-Hinweis zu möglichem regionalem Network Watcher präzisiert.

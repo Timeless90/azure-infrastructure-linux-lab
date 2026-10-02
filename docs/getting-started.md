@@ -10,6 +10,9 @@ git clone https://github.com/Timeless90/azure-infrastructure-linux-lab.git
 cd azure-infrastructure-linux-lab
 # Falls der Kurs noch im Pull Request liegt: dessen angezeigten Branch auschecken.
 git branch -a
+# Solange der Kurs-PR nicht nach main gemergt ist:
+git switch course/azure-linux-2026-10-02
+# Nach Merge stattdessen: git switch main
 bash --version
 python3 --version
 git --version
