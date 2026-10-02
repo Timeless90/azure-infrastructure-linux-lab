@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "microsoft-learn": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "linux-docs": {
+      "type": "stdio",
+      "command": "python3",
+      "args": [
+        "${workspaceFolder}/scripts/linux_docs_mcp.py"
+      ]
+    }
+  }
+}

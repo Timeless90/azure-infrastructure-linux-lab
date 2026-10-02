@@ -19,3 +19,7 @@ Prüfung am2026-10-02, direkt an den tatsächlich gelesenen Dateien/Seiten:
 | Microsoft Learn / Canonical / GitHub Docs | Dokumentationsseiten und Nutzungshinweise wurden gelesen; hier keine pauschale quellübergreifende Lizenz behauptet | ausschließlich eigene Erklärungen und Links, keine kopierten Dokumente |
 
 Die Installation von Paketen auf der eigenen Lab-VM ist keine Redistribution ihrer Binärdateien im Kursrepository. Bei künftigem Kopieren/Anpassen fremden Materials dessen konkrete Dateilizenz erneut prüfen und den benötigten Copyright-/Attributionshinweis ergänzen. Marken bezeichnen lediglich verwendete Technologien; kein offizieller Microsoft-/Canonical-Zertifizierungskurs.
+
+## Copilot-Erweiterung
+
+Instructions, Skills, Hook und Linux-Dokumentations-MCP sind eigene Inhalte. Offizielle Dokumentation wird verlinkt bzw. auf Anfrage zur Laufzeit gelesen; keine fremden Manpages werden im Repository verteilt. Keine zusätzliche Repository-Lizenz vergeben.

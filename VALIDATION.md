@@ -56,3 +56,13 @@ done
 Nur Compiler/Repositorychecks, keine Azure-Anmeldung nötig. ShellCheck/Bicep müssen vorher installiert sein. ## GitHub-Speicherung und erneute Prüfung
 
 Der erste Kurscommit `cd2554d293ff09e57662efb7360a95aa2b13cc0d` wurde auf `course/azure-linux-2026-10-02` gespeichert; Pull Request #1 bleibt offen, main unverändert. Alle78 GitHub-Blob-Hashes wurden gegen lokale Sourcebytes geprüft und stimmen überein. [GitHub Actions Lauf1](https://github.com/Timeless90/azure-infrastructure-linux-lab/actions/runs/37042801535) endete erfolgreich, einschließlich Repository-/Python-/ShellCheck-/Bicep-Prüfung. Dies ist zusätzlich zum lokalen Lauf; weiterhin kein Cloud-Integrationstest. Danach wurden ausschließlich Einstieg/Branchhinweis und Cleanup-Hinweis zu möglichem regionalem Network Watcher präzisiert.
+
+## Copilot-Erweiterung — 2026-10-02
+
+1. **Lokal ausgeführt:** Kursvalidator einschließlich interner Links und JSON/YAML; 24 Python-Tests erfolgreich. Neuer MCP-Prozess über stdin/stdout tatsächlich gestartet: initialize, initialized notification, tools/list, tools/call list_sources. SessionStart-Hook tatsächlich als Python-Prozess gestartet und JSON-Ausgabe geprüft.
+2. **Statisch geprüft:** MCP-Konfiguration, Skills-Frontmatter und Agent-Toolauswahl; feste HTTPS-URLs, keine Shell-/Azure-/Dateiwerkzeuge im Quellenserver.
+3. **Mit Mocks getestet:** Dokumentationsabruf, HTML-Extraktion, Suchphrase und Quelle. Redirects und unbekannte Quellen/Tools abgewiesen. Kein Live-Webabruf durch den lokalen MCP als erfolgreich behauptet.
+4. **Offizielle Dokumentation:** VS Code Local Hooks, Skills, Custom Agents und MCP-Konfiguration; Learn-MCP-Endpunkt und MCP-stdio-Transport geprüft.
+5. **Nicht ausgeführt:** VS-Code/Copilot-UI, tatsächliche Skill-Auswahl und Tutorverhalten, Learn-MCP-Handshake, lokale MCP-Live-Abrufe und Azure-Integration. Feature-/Policy-/Proxyabhängigkeiten stehen in docs/copilot-learning-buddy.md. Der Hook ist Context Injection und keine Zugriffssperre.
+
+Bekannte Testwarnung bleibt die bereits dokumentierte Starlette/AnyIO-DeprecationWarning. Keine Azure-Ressourcen angelegt oder geändert.

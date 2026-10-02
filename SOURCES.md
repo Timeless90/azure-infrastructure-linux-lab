@@ -36,3 +36,7 @@ Prüfdatum: **2026-10-02**. Primärquellen wurden vor der technischen Ausarbeitu
 - [Linux Upskill Challenge](https://linuxupskillchallenge.org/): zusätzliche eigenständige Linux-Übungen, keine Kapitelübersetzung/Übernahme.
 
 Lizenzen wurden an den jeweiligen tatsächlichen LICENSE-/Manpage-Dateien geprüft, Ergebnisse in [ATTRIBUTIONS](ATTRIBUTIONS.md). Keine Preise aus fremden Blogs übernommen. Optionalthemen verlinken Einstiegspunkte, sind keine als komplett ausgearbeitet bewerteten Zusatzkurse.
+
+## Copilot-Erweiterung — geprüft 2026-10-02
+
+Offizielle Konfigurationsquellen: [VS Code MCP](https://code.visualstudio.com/docs/agent-customization/mcp-servers), [Skills](https://code.visualstudio.com/docs/agent-customization/agent-skills), [Custom Agents](https://code.visualstudio.com/docs/agent-customization/custom-agents), [Local Hooks](https://code.visualstudio.com/docs/agent-customization/hooks), [Learn MCP](https://learn.microsoft.com/en-us/training/support/mcp-developer-reference), [MCP stdio](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports). Eigenständige Implementierung; keine fremden Code- oder Textpassagen übernommen. Weitere feste Linux-Quellen stehen in scripts/linux_docs_mcp.py; deren Live-Erreichbarkeit hängt vom Arbeitsplatznetz ab.

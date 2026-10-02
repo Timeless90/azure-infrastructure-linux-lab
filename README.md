@@ -28,3 +28,7 @@ Plane pro Modul eine oder mehrere konzentrierte Sitzungen. Lies das Modell, füh
 Scans und Captures nur auf explizit eigene Lab-IP-Adressen und benannte Ports. Keine Exploits, Passwortangriffe, produktiven Daten oder Secrets. Keine öffentlichen Freigaben des Webports. Public IP bedeutet in diesem Lab expliziten Outbound und eingeschränktes SSH, nicht öffentliches HTTP. Das Repository selbst ist nach ausdrücklicher Nutzerfreigabe öffentlich; es enthält ausschließlich generische Unterrichtsdateien. GitHub Pages bleibt deaktiviert. Es wird keine öffentliche Open-Source-Lizenz für das Gesamtwerk vergeben.
 
 Bicep und Shellskripte sind Unterrichtsartefakte. Ein erfolgreiches lokales Prüfergebnis ersetzt keinen Cloud-Integrationstest. Lies den aktuellen Prüfstatus in VALIDATION.md.
+
+## Copilot-Learning-Buddy
+
+[Einrichtung und Nutzung in VS Code](docs/copilot-learning-buddy.md): Tutor-Agent, drei Skills, Local SessionStart-Hook und lesende MCP-Quellen für Microsoft Learn sowie Linux/Nmap.
