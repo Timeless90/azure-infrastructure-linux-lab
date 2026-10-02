@@ -1,0 +1,16 @@
+config/lab.json
+.state/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pem
+*.key
+*.pcap
+*.pcapng
+.env
+.env.*
+*.log
+*.zip
+infra/bicep/*.json
+!infra/bicep/bicepconfig.json

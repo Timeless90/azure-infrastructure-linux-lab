@@ -1,0 +1,18 @@
+[Unit]
+Description=Azure Linux Course synthetic web service
+After=network.target
+[Service]
+User=courseweb
+Group=courseweb
+WorkingDirectory=/opt/course-web
+ExecStart=/usr/bin/python3 /opt/course-web/web.py --host 0.0.0.0 --port 8080
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target
